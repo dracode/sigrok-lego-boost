@@ -6,8 +6,8 @@ To use this protocol decoder with <a href="https://sigrok.org/wiki/Protocol_deco
 
 Now when you start <a href="https://sigrok.org/wiki/PulseView">PulseView</a> or use the command-line tool <a href="https://sigrok.org/wiki/Sigrok-cli">sigrok-cli</a>, you will have the ability to stack the "boost" decoder atop a UART decoder which will turn the serial codes into intelligible messages about what the sensors and motors are sending back to the LEGO BOOST Hub.
 
-Other projects with related info that you might like:
-<a href="http://www.treczoks.net/PoweredUp!%20Documentation.pdf">Herr Treczoks' Powered UP! documentation</a>
-<a href="https://github.com/JorgePe/BOOSTreveng">Jorge Pereira's BOOST Reverse Engineering writeups</a>
-<a href="https://github.com/undera/pylgbst">Andrey Pokhilko's Python BOOST library</a>
+Other projects with related info that you might like:<br>
+<a href="http://www.treczoks.net/PoweredUp!%20Documentation.pdf">Herr Treczoks' Powered UP! documentation</a><br>
+<a href="https://github.com/JorgePe/BOOSTreveng">Jorge Pereira's BOOST Reverse Engineering writeups</a><br>
+<a href="https://github.com/undera/pylgbst">Andrey Pokhilko's Python BOOST library</a><br>
 
