@@ -1,6 +1,6 @@
 # sigrok-lego-boost
 
-This repository contains Python code to add a protocol decoder for LEGO BOOST peripherals to sigrok.  For me, the hardest part of this was getting sigrok working in the first place.  I strongly recommend using the pre-compiled AppImage binaries available; the versions in the standard Debian/Raspbian/Ubuntu repositories are hopelessly out of date.  It appears, however, that the latest Kali release actually has recent sigrok builds.
+This repository contains Python code to add a protocol decoder for LEGO BOOST peripherals to sigrok.  For me, the hardest part of this was getting sigrok working in the first place.  I strongly recommend using the pre-compiled AppImage binaries available; the versions in the standard Debian/Ubuntu repositories are hopelessly out of date.  They offer precompiled binaries for Windows as well, though I have not tested the plugin there.  For another option, the latest Kali release actually has recent sigrok builds that you can install normally via apt.
 
 To use this protocol decoder with <a href="https://sigrok.org/wiki/Protocol_decoders">sigrok</a>, simply copy the "boost" directory contained here to the appropriate plugin directory on your system.  For me on Ubuntu and Kali, this is: $HOME/.local/share/libsigrokdecode/decoders/
 
